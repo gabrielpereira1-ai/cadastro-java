@@ -1,0 +1,19 @@
+# Java
+*.class
+target/
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Configurações locais
+.env
+application.properties
