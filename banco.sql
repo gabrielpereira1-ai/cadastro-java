@@ -1,0 +1,11 @@
+CREATE DATABASE cadastro;
+
+USE cadastro;
+
+CREATE TABLE pessoas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(150) NOT NULL,
+    cpf VARCHAR(11) NOT NULL UNIQUE
+);
+
+SELECT * FROM pessoas;
